@@ -18,7 +18,7 @@ static const char col_current_line[] = "#44475a";
 static const char *colors[][3]       = {
     /*               fg         bg         border   */
     [SchemeNorm] = { col_pink, col_background, col_current_line },
-    [SchemeSel]  = { col_orange, col_current_line,  col_orange  },
+    [SchemeSel]  = { col_orange, col_background,  col_orange  },
 };
 
 /* tagging */
